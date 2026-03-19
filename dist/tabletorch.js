@@ -440,5 +440,5 @@ function $e() {
   return /* @__PURE__ */ Ye.jsx("div", { children: "Hello" });
 }
 export {
-  $e as TableTorch
+  $e as default
 };
