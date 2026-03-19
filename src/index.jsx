@@ -1,1 +1,1 @@
-export { default as TableTorch } from './TableTorch'
+export { default as TableTorch } from './TableTorch/index.jsx'
