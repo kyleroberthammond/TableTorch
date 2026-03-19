@@ -2,7 +2,7 @@
 function App() {
   return (
     <div>
-      This is tabletorch updated
+      This is tabletorch updateds
     </div>
   )
 }
