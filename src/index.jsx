@@ -1,1 +1,3 @@
-export { default } from "./TableTorch"
+import TableTorch from "./TableTorch"
+
+export default TableTorch
