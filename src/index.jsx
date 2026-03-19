@@ -1,3 +1,3 @@
-import TableTorch from "./TableTorch"
+import TableTorch from "./TableTorch/entry.jsx"
 
 export default TableTorch
