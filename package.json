@@ -1,17 +1,25 @@
 {
   "name": "tabletorch",
-  "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
+  "main": "./dist/tabletorch.cjs",
+  "module": "./dist/tabletorch.js",
+  "exports": {
+    ".": {
+      "import": "./dist/tabletorch.js",
+      "require": "./dist/tabletorch.cjs"
+    }
+  },
+  "files": ["dist"],
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "prepare": "yarn build"
   },
-  "dependencies": {
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+  "peerDependencies": {
+    "react": "^16.2.0 || ^17 || ^18 || ^19",
+    "react-dom": "^16.2.0 || ^17 || ^18 || ^19"
   },
   "devDependencies": {
     "@types/react": "^16.2.15",
