@@ -18,12 +18,12 @@ function De() {
     var h = Symbol.for;
     D = h("react.element"), b.Fragment = h("react.fragment");
   }
-  var k = R.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner, j = Object.prototype.hasOwnProperty, A = { key: !0, ref: !0, __self: !0, __source: !0 };
+  var k = R.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED.ReactCurrentOwner, j = Object.prototype.hasOwnProperty, w = { key: !0, ref: !0, __self: !0, __source: !0 };
   function T(p, s, P) {
     var l, E = {}, O = null, m = null;
     P !== void 0 && (O = "" + P), s.key !== void 0 && (O = "" + s.key), s.ref !== void 0 && (m = s.ref);
     for (l in s)
-      j.call(s, l) && !A.hasOwnProperty(l) && (E[l] = s[l]);
+      j.call(s, l) && !w.hasOwnProperty(l) && (E[l] = s[l]);
     if (p && p.defaultProps)
       for (l in s = p.defaultProps, s)
         E[l] === void 0 && (E[l] = s[l]);
@@ -46,10 +46,10 @@ function ke() {
     process.env.NODE_ENV !== "production" && function() {
       var D = ie, h = 60103, k = 60106;
       R.Fragment = 60107;
-      var j = 60108, A = 60114, T = 60109, p = 60110, s = 60112, P = 60113, l = 60120, E = 60115, O = 60116, m = 60121, F = 60122, N = 60117, J = 60129, z = 60131;
+      var j = 60108, w = 60114, T = 60109, p = 60110, s = 60112, P = 60113, l = 60120, E = 60115, O = 60116, m = 60121, F = 60122, N = 60117, J = 60129, z = 60131;
       if (typeof Symbol == "function" && Symbol.for) {
         var o = Symbol.for;
-        h = o("react.element"), k = o("react.portal"), R.Fragment = o("react.fragment"), j = o("react.strict_mode"), A = o("react.profiler"), T = o("react.provider"), p = o("react.context"), s = o("react.forward_ref"), P = o("react.suspense"), l = o("react.suspense_list"), E = o("react.memo"), O = o("react.lazy"), m = o("react.block"), F = o("react.server.block"), N = o("react.fundamental"), o("react.scope"), o("react.opaque.id"), J = o("react.debug_trace_mode"), o("react.offscreen"), z = o("react.legacy_hidden");
+        h = o("react.element"), k = o("react.portal"), R.Fragment = o("react.fragment"), j = o("react.strict_mode"), w = o("react.profiler"), T = o("react.provider"), p = o("react.context"), s = o("react.forward_ref"), P = o("react.suspense"), l = o("react.suspense_list"), E = o("react.memo"), O = o("react.lazy"), m = o("react.block"), F = o("react.server.block"), N = o("react.fundamental"), o("react.scope"), o("react.opaque.id"), J = o("react.debug_trace_mode"), o("react.offscreen"), z = o("react.legacy_hidden");
       }
       var K = typeof Symbol == "function" && Symbol.iterator, ue = "@@iterator";
       function fe(e) {
@@ -58,7 +58,7 @@ function ke() {
         var r = K && e[K] || e[ue];
         return typeof r == "function" ? r : null;
       }
-      var w = D.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
+      var A = D.__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED;
       function d(e) {
         {
           for (var r = arguments.length, n = new Array(r > 1 ? r - 1 : 0), t = 1; t < r; t++)
@@ -68,7 +68,7 @@ function ke() {
       }
       function oe(e, r, n) {
         {
-          var t = w.ReactDebugCurrentFrame, u = "";
+          var t = A.ReactDebugCurrentFrame, u = "";
           if (x) {
             var f = v(x.type), i = x._owner;
             u += le(f, x._source, i && v(i.type));
@@ -82,7 +82,7 @@ function ke() {
       }
       var se = !1;
       function ce(e) {
-        return !!(typeof e == "string" || typeof e == "function" || e === R.Fragment || e === A || e === J || e === j || e === P || e === l || e === z || se || typeof e == "object" && e !== null && (e.$$typeof === O || e.$$typeof === E || e.$$typeof === T || e.$$typeof === p || e.$$typeof === s || e.$$typeof === N || e.$$typeof === m || e[0] === F));
+        return !!(typeof e == "string" || typeof e == "function" || e === R.Fragment || e === w || e === J || e === j || e === P || e === l || e === z || se || typeof e == "object" && e !== null && (e.$$typeof === O || e.$$typeof === E || e.$$typeof === T || e.$$typeof === p || e.$$typeof === s || e.$$typeof === N || e.$$typeof === m || e[0] === F));
       }
       var I = /^(.*)[\\\/]/;
       function le(e, r, n) {
@@ -125,7 +125,7 @@ function ke() {
             return "Fragment";
           case k:
             return "Portal";
-          case A:
+          case w:
             return "Profiler";
           case j:
             return "StrictMode";
@@ -156,7 +156,7 @@ function ke() {
         return null;
       }
       var G = {};
-      w.ReactDebugCurrentFrame;
+      A.ReactDebugCurrentFrame;
       var x = null;
       function Y(e) {
         x = e;
@@ -180,7 +180,7 @@ function ke() {
             }
         }
       }
-      var S = w.ReactCurrentOwner, $ = Object.prototype.hasOwnProperty, Ee = {
+      var S = A.ReactCurrentOwner, $ = Object.prototype.hasOwnProperty, Ee = {
         key: !0,
         ref: !0,
         __self: !0,
@@ -278,8 +278,8 @@ function ke() {
           return Pe(e, a, c, u, t, S.current, i);
         }
       }
-      var W = w.ReactCurrentOwner;
-      w.ReactDebugCurrentFrame;
+      var W = A.ReactCurrentOwner;
+      A.ReactDebugCurrentFrame;
       function y(e) {
         x = e;
       }
@@ -426,18 +426,18 @@ Check the top-level render call using <` + n + ">.");
       function je(e, r, n) {
         return ne(e, r, n, !0);
       }
-      function Ae(e, r, n) {
+      function we(e, r, n) {
         return ne(e, r, n, !1);
       }
-      var we = Ae, Se = je;
-      R.jsx = we, R.jsxs = Se;
+      var Ae = we, Se = je;
+      R.jsx = Ae, R.jsxs = Se;
     }();
   }(M)), M;
 }
 process.env.NODE_ENV === "production" ? q.exports = De() : q.exports = ke();
 var Ye = q.exports;
 function $e() {
-  return /* @__PURE__ */ Ye.jsx("div", { children: "This is tabletorch updateds" });
+  return /* @__PURE__ */ Ye.jsx("div", { children: "Just trying a few things" });
 }
 export {
   $e as default
