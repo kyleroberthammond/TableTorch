@@ -437,7 +437,7 @@ Check the top-level render call using <` + n + ">.");
 process.env.NODE_ENV === "production" ? q.exports = De() : q.exports = ke();
 var Ye = q.exports;
 function $e() {
-  return /* @__PURE__ */ Ye.jsx("div", { children: "Hello" });
+  return /* @__PURE__ */ Ye.jsx("div", { children: "This is tabletorch updated" });
 }
 export {
   $e as default
